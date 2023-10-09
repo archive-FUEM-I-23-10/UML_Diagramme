@@ -1,0 +1,68 @@
+<mxfile host="65bd71144e">
+    <diagram id="aFfTgyHQPMUhyROw5IrW" name="0_Basics">
+        <mxGraphModel dx="716" dy="362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Pizzeria" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="50" width="120" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Kunden" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="50" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Mitarbeiter" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="50" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Fahrer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="50" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="290" y="190" as="sourcePoint"/>
+                        <mxPoint x="450" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="290" y="240" as="sourcePoint"/>
+                        <mxPoint x="450" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="Condition" style="html=1;align=center;verticalAlign=middle;dashed=0;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="310" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="10">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="250" y="260" as="sourcePoint"/>
+                        <mxPoint x="410" y="325" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="LWUt-f5zy46ZNo5kLFCR" name="1_Bestellung">
+        <mxGraphModel dx="716" dy="362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="OMec8amQQG1Pb_q7iLnd" name="2_Liefer-Entscheidung">
+        <mxGraphModel dx="716" dy="362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="xg_7vtrCWfdqETrnF-h8" name="4-Gesamt">
+        <mxGraphModel dx="716" dy="362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
